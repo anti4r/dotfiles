@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls --color=always"
 alias grep="grep --color=auto"
-
+alias syslogout="kill -9 -1"
 # GRC terminal colorifying support
 #[[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
