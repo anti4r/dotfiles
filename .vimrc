@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'whatyouhide/vim-gotham'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
