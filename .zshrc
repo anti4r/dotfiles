@@ -100,6 +100,10 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ls --color=always"
 alias grep="grep --color=auto"
 alias syslogout="kill -9 -1"
+alias sigstop="killall -SIGSTOP"
+alias sigcont="killall -SIGCONT"
+alias spotify="spotify --force-device-scale-factor=2.5"
+
 # GRC terminal colorifying support
 #[[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
