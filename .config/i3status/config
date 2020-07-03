@@ -13,6 +13,7 @@ general {
 
 order += "vpn_status"
 order += "whatismyip"
+order += "bluetooth"
 order += "cpu_usage"
 order += "battery all"
 order += "volume master"
@@ -28,10 +29,16 @@ vpn_status {
 
 whatismyip {
     format = " {ip} {city}, {country_iso} "
-    color_bad = "#FFFFFF"
+    color_bad = "#808080"
     color_good = "#bf94e4"
     cache_timeout = 10
     mode = status 
+}
+bluetooth {
+    format = "[ {format_device}]"
+    format_device = "{name}"
+    color_good = "#bf94e4"
+    color_bad = "808080"
 }
 cpu_usage {
     format = "   %usage"
