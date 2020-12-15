@@ -14,9 +14,8 @@ bindsym $mod+Return exec urxvt
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start rofi
-#bindsym $mod+d exec rofi -show run 
-#bindsym $mod+d exec ~/.config/rofi/launchers/launcher.sh 
+# Exec alttab-git Alt-Tab Functionality
+exec_always alttab
 
 # alternative rofi config
 #Colors for rofi
