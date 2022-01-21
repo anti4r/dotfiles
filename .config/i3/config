@@ -33,6 +33,9 @@ bindsym Print exec scrot $HOME/Pictures/Screenshots/`date +%Y-%m-%d_%H:%M:%S`.pn
 # disable beep
 exec --no-startup-id xset -b
 
+# NetworkManager applet
+exec --no-startup-id nm-applet
+
 # Pulse Audio controls for use with laptop HW buttons
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume

@@ -15,9 +15,14 @@ order += "vpn_status"
 order += "whatismyip"
 order += "bluetooth"
 order += "cpu_usage"
+order += "sysdata"
 order += "battery all"
 order += "volume master"
 order += "tztime local"
+
+sysdata{
+    format = " {cpu_temp} "
+}
 
 vpn_status {
     format = "  "
